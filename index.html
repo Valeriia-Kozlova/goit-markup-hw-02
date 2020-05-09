@@ -4,31 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--шапка-->
     <header>
       <nav>
-        <a href="#">
-          <p><span>Web </span>Studio</p>
+        <a href="#" class="logo">
+          <p><span class="logo-web">Web </span>Studio</p>
         </a>
-        <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <ul class="site-nav">
+          <li><a href="#" class="link current"> Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
 
       <div>
-        <ul>
+        <ul class="auth-nav">
           <li>
-            <img src="./images/envelope.svg" alt="Конверт" /><a href="#"
+            <img src="./images/envelope.svg" alt="Конверт" /><a
+              href="#"
+              class="link"
               >info@devstudio.com</a
             >
           </li>
           <li>
             <img src="./images/cell-phone.svg" alt="Телефон" />
-            <a href="#">+38 096 111 11 11</a>
+            <a href="#" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -40,19 +43,20 @@
           эффективные решения<br />
           для вашего бизнеса
         </h1>
-        <a href="#">Заказать услугу</a>
+        <a href="#" class="buttom">Заказать услугу</a>
       </section>
       <!--Наши преимущества-->
       <section>
-        <h2>Наши преимущества</h2>
-        <ul>
+        <h2 class="title-colorless">Наши преимущества</h2>
+        <ul class="advantages">
           <li>
             <a href="#"
-              ><img src="./images/Rectangle.svg" alt="Фон" /><img
+              ><img
                 src="./images/attension-details.svg"
                 alt="Антенна"
+                class="background-color"
             /></a>
-            <h3>Внимание к деталям</h3>
+            <h3 class="title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -60,34 +64,35 @@
           </li>
           <li>
             <a href="#">
-              <img src="./images/Rectangle.svg" alt="Фон" />
-              <img src="./images/clock.svg" alt="Часы"
+              <img src="./images/clock.svg" alt="Часы" class="background-color"
             /></a>
-            <h3>Пунктуальность</h3>
+            <h3 class="title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <a href="#"
-              ><img src="./images/Rectangle.svg" alt="Фон" /><img
+            <a href="#" class="link"
+              ><img
                 src="./images/diagram.svg"
                 alt="График планирования"
+                class="background-color"
             /></a>
-            <h3>Планирование</h3>
+            <h3 class="title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <a href="#"
-              ><img src="./images/Rectangle.svg" alt="Фон" /><img
+            <a href="#" class="link"
+              ><img
                 src="./images/astronaut.svg"
                 alt="Астронавт"
+                class="background-color"
             /></a>
-            <h3>Современные технологии</h3>
+            <h3 class="title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -96,8 +101,8 @@
         </ul>
       </section>
       <!--чем мы занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="name">Чем мы занимаемся</h2>
         <ul>
           <li>
             <a href="#">
@@ -108,7 +113,7 @@
                 width="380"
                 height="294"
               />
-              <h3>Десктопные приложения</h3></a
+              <h3 class="title">Десктопные приложения</h3></a
             >
           </li>
           <li>
@@ -120,7 +125,7 @@
                 width="380"
                 height="294"
               />
-              <h3>Мобильные приложения</h3></a
+              <h3 class="title">Мобильные приложения</h3></a
             >
           </li>
           <li>
@@ -131,14 +136,14 @@
                 width="380"
                 height="294"
               />
-              <h3>Дизайнерские решения</h3></a
+              <h3 class="title">Дизайнерские решения</h3></a
             >
           </li>
         </ul>
       </section>
       <!--наша команда-->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="section-comand">
+        <h2 class="name">Наша команда</h2>
         <ul>
           <li>
             <a href="#"
@@ -148,10 +153,10 @@
                 width="278"
                 height="260"
             /></a>
-            <h3 lang="en">John Smith</h3>
+            <h3 lang="en" class="title">John Smith</h3>
             <p>Product Designer</p>
             <h3>Список соцсетей</h3>
-            <ul>
+            <ul class="networks">
               <li>
                 <a href="#"
                   ><img src="./images/instagram.svg" alt="Instagram"
@@ -180,7 +185,7 @@
                 width="278"
                 height="260"
             /></a>
-            <h3 lang="en">Marta Stewar</h3>
+            <h3 lang="en" class="title">Marta Stewar</h3>
             <p>Frontend Developer</p>
             <h3>Список соцсетей</h3>
             <ul>
@@ -212,7 +217,7 @@
                 width="278"
                 height="260"
             /></a>
-            <h3 lang="en">Robert Jakis</h3>
+            <h3 lang="en" class="title">Robert Jakis</h3>
             <p>Marketing</p>
             <h3>Список соцсетей</h3>
 
@@ -245,7 +250,7 @@
                 width="278"
                 height="260"
             /></a>
-            <h3 lang="en">Martin Doe</h3>
+            <h3 lang="en" class="title">Martin Doe</h3>
             <p>UI Designer</p>
             <h3>Список соцсетей</h3>
 
@@ -273,8 +278,8 @@
         </ul>
       </section>
       <!--постоянные клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
+      <section class="section">
+        <h2 class="name">Постоянные клиенты</h2>
         <ul>
           <li>
             <a href="#" aria-label="Ссылка на клиентов"
@@ -325,13 +330,14 @@
     <footer>
       <!--Логотип-->
       <a href="#">
-        <p><span>Web </span>Studio</p>
+        <p class="logo"><span class="logo-web">Web </span>Studio</p>
       </a>
       <!--Адрес-->
       <div>
-        <address>
-          г. Киев, пр-т Леси Украинки, 26<br />info@example.com<br />+38 099 111
-          11 11<br />
+        <address class="adress">
+          г. Киев, пр-т Леси Украинки, 26<br /><span class="info"
+            >info@example.com<br />+38 099 111 11 11<br
+          /></span>
         </address>
       </div>
       <!--Присоединяйтесь-->
