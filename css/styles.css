@@ -14,12 +14,16 @@
 body {
   background-color: #fff;
   color: #757575;
+  font-family: Roboto; sans-serif;
+  letter-spacing: 0.03em;
 }
 .logo-web {
   color: #2196f3;
+  font-family: Raleway; sans-serif;
 }
 .logo {
   color: #212121;
+  font-family: Raleway; sans-serif;
 }
 /*Site nav*/
 .site-nav .link {
@@ -42,7 +46,7 @@ body {
 }
 
 /*Кнопка*/
-.buttom {
+.button-web {
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -50,13 +54,13 @@ body {
 .title-colorless {
   color: #ffffff;
 }
-.advantages .background-color {
+.background {
   background-color: #f5f4fa;
 }
-.advantages .background-color:hover {
-  color: #2196f3;
+.background:hover {
+  background-color: #2196f3;
 }
-.advantages .title {
+.advantages h3 {
   color: #212121;
 }
 /*Чем мы занимаемся*/
@@ -69,6 +73,9 @@ body {
 }
 
 /*Наша команда*/
+.section-comand {
+  background-color: #f5f4fa;
+}
 .section-comand .name {
   color: #212121;
 }
@@ -83,13 +90,41 @@ body {
   color: #212121;
 }
 /*Футер*/
+.footer {
+  background: #2f303a;
+}
+.footer .logo {
+  color: #ffffff;
+}
 .adress {
   color: #ffffff;
 }
+.join-list {
+  color: #ffffff;
+  text-transform: uppercase;
+}
 
 .info {
+  color: rgba(255, 255, 255, 0.6);
+}
+/*portfolio.html*/
+/*Порфолио main */
+.button {
+  background-color: #f5f4fa;
   color: #212121;
 }
+.button:hover,
+.filters .button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.portfolio .title {
+  color: #212121;
+}
+.portfolio .text {
+  color: #757575;
+}
+
 /* тренировка по вебинару*/
 ul {
   list-style: none;
