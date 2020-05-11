@@ -26,6 +26,9 @@ letter-spacing: 0.03em;
 ul {
   list-style: none;
 }
+a {
+  text-decoration:none;
+}
 .logo-web {
 color: var(--accent-color);
 font-family: Raleway; sans-serif;
@@ -44,17 +47,17 @@ line-height: 1.19;
 }
 /*Site nav*/
 .site-nav .link {
-  color:var(--title-text-color);
-  text-decoration: none;
+color:var(--title-text-color);
+text-decoration: none;
 }
 .site-nav .link.current {
-  color: var(--accent-color);
-  text-decoration: none;
+color: var(--accent-color);
+text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color:var(--accent-color);
-  text-decoration: none;
+color:var(--accent-color);
+text-decoration: none;
 }
 .site-nav, .auth-nav {
 font-weight: 500;
@@ -64,8 +67,8 @@ letter-spacing: 0.02em;
 }
 /* Auth-Nav*/
 .auth-nav .link {
-  color: var(--primary-text-color);
-  text-decoration: none;
+color: var(--primary-text-color);
+text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -129,10 +132,10 @@ text-transform: uppercase;
 
 /*Наша команда*/
 .section-comand {
-  background-color: var(--background-color);
+background-color: var(--background-color);
 }
 .section-comand .name {
-  color:var(--title-text-color);
+color:var(--title-text-color);
 }
 .section-comand .title {
 font-weight: 500;
@@ -144,17 +147,17 @@ font-size: 16px;
 line-height: 1.19;
 }
 .section-comand .title {
-  color: var(--title-text-color);
+color: var(--title-text-color);
 }
 /*Футер*/
 .footer {
-  background: var(--background-footer);
-  text-decoration: none;
+background: var(--background-footer);
+text-decoration: none;
 }
 .footer .logo {
-  color: var(--white-color);
-  font-family: Raleway; sans-serif;
-  text-decoration: none;
+color: var(--white-color);
+font-family: Raleway; sans-serif;
+text-decoration: none;
 }
 .adress {
 color: var(--white-color);
@@ -178,38 +181,38 @@ text-align: center;
 /*portfolio.html*/
 /*Порфолио main */
 .button {
-  background-color: var(--background-color);
-  color:var(--title-text-color);
-  font-family: inherit;
-  font-weight: 500;
+background-color: var(--background-color);
+color:var(--title-text-color);
+font-family: inherit;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
 }
 .filters .button:hover,
 .filters .button:focus {
-  background-color:var(--accent-color);
-  color: var(--white-color);
-  font-family: inherit;
+background-color:var(--accent-color);
+color: var(--white-color);
+font-family: inherit;
 }
 .portfolio .title {
-  color:var(--title-text-color);
-  text-decoration: none;
-  font-weight: 700;
+color:var(--title-text-color);
+text-decoration: none;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 
 }
 .description {
-  text-decoration: none;
-  font-size: 18px;
+text-decoration: none;
+font-size: 18px;
 line-height: 1.56;
 
 }
 .portfolio .text {
-  color: var(--primary-text-color);
-  text-decoration: none;
-  font-size: 16px;
+color: var(--primary-text-color);
+text-decoration: none;
+font-size: 16px;
 line-height: 1.88;
 }
 
